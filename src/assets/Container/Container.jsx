@@ -9,9 +9,9 @@ const Container = ({subtitulo, inputinfo, termsService, link}) =>{
         <article>
            
             <input type="text" placeholder={inputinfo} />
-            <input type="text" placeholder={inputinfo} />
-            <input type="text" placeholder={inputinfo} />
-            <input type="text" placeholder={inputinfo} />
+            <input type="text"  />
+            <input type="email"  />
+            <input type="password" />
             <Button 
             nameButton={"CLAIM YOUR FREE TRIAL"}/>
             <p className="termsService">{termsService}
